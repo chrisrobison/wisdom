@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://example.com/">
-    <img src="https://via.placeholder.com/72" alt="Logo" width=72 height=72>
+  <a href="https://chrisrobison.github.io/wisdom/">
+    <img src="owl.png" alt="Logo" width=128 height=128>
   </a>
 
   <h3 align="center">Software Engineer's Guide to Life</h3>
