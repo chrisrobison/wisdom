@@ -3,14 +3,16 @@
     <img src="https://via.placeholder.com/72" alt="Logo" width=72 height=72>
   </a>
 
-  <h3 align="center">Logo</h3>
+  <h3 align="center">Software Engineer's Guide to Life</h3>
 
   <p align="center">
-    Short description
+    A list of 101 rules to follow as for people who write code, design user interfaces, or
+    architect technical solutions.  Simple words of advice that I have gathered over 30 years 
+    of writing software.
     <br>
-    <a href="https://reponame/issues/new?template=bug.md">Report bug</a>
+    <a href="https://github.com/chrisrobison/wisdom/issues/new?template=bug.md">Report bug</a>
     ·
-    <a href="https://reponame/issues/new?template=feature.md&labels=feature">Request feature</a>
+    <a href="https://github.com/chrisrobison/wisdom/issues/new?template=feature.md&labels=feature">Request feature</a>
   </p>
 </p>
 
@@ -29,48 +31,46 @@
 
 ## Quick start
 
-Some text
+This repo is totally self-contained with no external dependencies besides a web browser.
 
-- Instruction 1
-- Instruction 2
-- Instruction 3
+All advice data is stored as JSON in "advice.json" file.  The "index.html" file simply loads
+the JSON advice data and renders it as a HTML ordered list.
+
+- Step 1: Clone this repository. 
+- Step 2: Open the file "index.html" in a modern web browser.
+- Step 3: Read and become enlightened.
 
 ## Status
 
-Here goes all the budgets
+This list will continue to be added to as new or udated advice is learned.
 
 ## What's included
 
-Some text
+A little wisdom; a bit of advice; a LOT of experience and a dash of opinion.
 
 ```text
-folder1/
-└── folder2/
-    ├── folder3/
-    │   ├── file1
-    │   └── file2
-    └── folder4/
-        ├── file3
-        └── file4
+wisdom/
+├── index.html
+└── advice.json
 ```
 
 ## Bugs and feature requests
 
-Have a bug or a feature request? Please first read the [issue guidelines](https://reponame/blob/master/CONTRIBUTING.md) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://reponame/issues/new).
+Have a bug or a feature request? Please first read the [issue guidelines](https://github.com/chrisrobison/wisdom/blob/master/CONTRIBUTING.md) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/chrisrobison/wisdom/issues/new).
 
 ## Contributing
 
-Please read through our [contributing guidelines](https://reponame/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+Please read through our [contributing guidelines](https://github.com/chrisrobison/wisdom/blob/master/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
 
-Moreover, all HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide), maintained by [Main author](https://github.com/usernamemainauthor).
+Moreover, all HTML and CSS should conform to the [Code Guide](https://github.com/mdo/code-guide).
 
-Editor preferences are available in the [editor config](https://reponame/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <https://editorconfig.org/>.
+Editor preferences are available in the [editor config](https://github.com/chrisrobison/wisdom/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <https://editorconfig.org/>.
 
 ## Creators
 
-**Creator 1**
+**Christopher Robison**
 
-- <https://github.com/usernamecreator1>
+- <https://github.com/chrisrobison>
 
 ## Thanks
 
@@ -78,6 +78,6 @@ Some Text
 
 ## Copyright and license
 
-Code and documentation copyright 2011-2018 the authors. Code released under the [MIT License](https://reponame/blob/master/LICENSE).
+Code and documentation copyright 2011-2018 the authors. Code released under the [MIT License](https://github.com/chrisrobison/wisdom/blob/master/LICENSE).
 
 Enjoy :metal:
