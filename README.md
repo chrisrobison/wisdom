@@ -42,7 +42,7 @@ the JSON advice data and renders it as a HTML ordered list.
 
 ## Status
 
-This list will continue to be added to as new or udated advice is learned.
+This list will continue to be added to as new or updated advice is learned.
 
 ## What's included
 
