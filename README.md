@@ -74,7 +74,7 @@ Editor preferences are available in the [editor config](https://github.com/chris
 
 ## Thanks
 
-Some Text
+Thanks for reading my advice!
 
 ## Copyright and license
 
