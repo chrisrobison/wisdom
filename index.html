@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>A Programmer's Advice</title>
+    <link rel="icon" href="favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -13,40 +14,61 @@
             margin: 0;
             padding: 0;
             font-size: 16px;
+            background-color:#333;
         }
 
         header {
             background-color: #999;
             color: #eee;
-            height: 0vh;
+            height: auto;
+            text-align: center;
+            padding: 1em 0px;
         }
 
         main {
             background-color: #eee;
             color: #222;
-            height: 100vh;
+            height: auto;
             width:100vw;
             overflow: scroll;
             display: flex;
         }
+
+        h1, h2, h3 {
+            margin:0px;
+        }
+
+        h1 {
+            text-shadow: 2px 2px 0px #000;
+            font-size: 2.2em;
+            text-transform: uppercase;
+        }
+
+        h2, h3 { text-shadow: 1px 1px 0px #000; }
+
         #list {
             width:40em;
+            background-color:#fff;
             margin: auto;
+            padding-top: 2em;
         }
+
         #list p {
             margin-right: 2em;
         }
+
         div#detail {
             flex-grow: 1;
             background-color:#eee;
             overflow:scroll;
         }
+
         a {
             color:#dedede;
-            text-decoration:none;
+            text-decoration:underline;
         }
         a:hover {
-            color:#efefef;
+            color:#0f0fff;
             text-decoration:underline;
         }
         a:active {
@@ -70,6 +92,12 @@
 </head>
 
 <body>
+    <header>
+        <h1>Advice for Programmers</h1>
+        <h3>By</h3>
+        <h2>Christopher Robison [<a href="mailto:cdr@cdr2.com">cdr@cdr2.com</a>]</h2>
+        <h3>July, 2021</h3>
+    </header>
     <main>
         <ol id='list'>
 
