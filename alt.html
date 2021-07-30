@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>A Programmer's Advice</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="alt.css">
+</head>
+
+<body>
+    <header>
+        <h1>Advice for Programmers</h1>
+        <h3>By</h3>
+        <h2>Christopher Robison [<a href="mailto:cdr@cdr2.com">cdr@cdr2.com</a>]</h2>
+        <h3>July, 2021</h3>
+    </header>
+    <main>
+        <ol class="gradient-list">
+
+        </ol>
+    </main>
+
+    <script>
+        const $ = str => document.querySelector(str);
+        const $$ = str => document.querySelectorAll(str);
+
+        (function() {
+            const app = {
+                init: function() {
+                    fetch("advice.json").then(response => response.json()).then(data => {
+                        console.dir(data);
+                        app.data.records = data;
+                        app.list();
+                    });
+                    $(".gradient-list").addEventListener("click", function(evt) {
+                        console.dir(evt);
+                    });
+                    app.state.loaded = true;
+                },
+                display: function(idx) {
+
+                },
+                list: function() {
+                    let html = "";
+                    app.data.records.forEach((item, idx) => {
+                        item.advice = item.advice.replace(/\./g, ".<br>\n");
+                        html += `<li><h2>${item.title}</h2><p>${item.advice}</p></li>`;
+                    });
+                    $(".gradient-list").innerHTML = html;
+                },
+                state: {
+                    loaded: false
+                },
+                data: {
+                    records: []
+                }
+            }
+            window.app = app;
+            app.init();
+        })();
+    </script>
+</body>
+
+</html>
